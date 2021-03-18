@@ -1,0 +1,9 @@
+com\sudeeksha\testutilities\Report.class
+com\sudeeksha\pageobjects\Loginpageobjects.class
+com\sudeeksha\testutilities\Read_Config.class
+com\sudeeksha\testcases\DDT_Login.class
+com\sudeeksha\pageobjects\Registrationpageobjects.class
+com\sudeeksha\testutilities\XLUtils.class
+com\sudeeksha\testcases\BaseClass.class
+com\sudeeksha\testcases\RegistrationTestCase.class
+com\sudeeksha\testcases\LoginTestcase.class

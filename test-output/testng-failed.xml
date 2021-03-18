@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.sudeeksha.testutilities.Report"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.sudeeksha.testcases.DDT_Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.sudeeksha.testcases.DDT_Login">
+        <methods>
+          <include name="loginDDT" invocation-numbers="1 2 3"/>
+          <include name="SetUp"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.sudeeksha.testcases.DDT_Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
